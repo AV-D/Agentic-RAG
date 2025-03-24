@@ -31,42 +31,6 @@ The chatbot implements the following workflow:
 
 
 
-## Installation
-
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   cd rag-chatbot
-   ```
-
-2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-   > **Important**: Make sure you have the correct versions of langchain packages. If you encounter import errors, try:
-   > ```
-   > pip install langchain-ollama==0.0.3
-   > ```
-
-3. Copy the example environment file and modify as needed:
-   ```
-   cp .env.example .env
-   ```
-
-4. Make sure you have Ollama installed and running:
-   ```
-   # Follow instructions at https://ollama.ai to install Ollama
-   # Start the Ollama server
-   ollama serve
-   ```
-
-5. Pull the required Ollama models:
-   ```
-   ollama pull deepseek-r1:latest
-   ollama pull mxbai-embed-large:latest
-   ```
-
 ## Usage
 
 ### Indexing Documents
@@ -130,6 +94,4 @@ This project uses the following models from Ollama:
 
 If you encounter an error like `ImportError: cannot import name 'Ollama' from 'langchain_ollama'`, make sure you have the latest version of langchain-ollama installed or try installing a specific version with `pip install langchain-ollama==0.0.3`.
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
