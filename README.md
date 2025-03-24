@@ -25,6 +25,12 @@ The chatbot implements the following workflow:
 7. **Hallucination Detection**: The Hallucination Checker Agent identifies factual inaccuracies
 8. **Final Answer Refinement**: The Final Answer Agent refines the response based on evaluation feedback
 
+![mermaid-diagram-2025-03-24-160852](https://github.com/user-attachments/assets/73990b02-747d-4c2c-a8a1-dd22f990d63b)
+
+![mermaid-diagram-2025-03-24-160221](https://github.com/user-attachments/assets/b2d7d4ea-b2a0-4a6f-8d19-40b1e094a487)
+
+
+
 ## Installation
 
 1. Clone the repository:
